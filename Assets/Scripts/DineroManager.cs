@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class DineroManager : MonoBehaviour
 {
-    public float playerMoney;
+    public float playerMoney = 100f;
 
-    public void UpdateMoney(float amount)
+    public bool UpdateMoney(float amount)
     {
-
         if (playerMoney + amount < 0)
         {
-            //impedir compra
+            return false;
         }
         else
         {
             playerMoney += amount;
+            return true;
         }
     }
 }
