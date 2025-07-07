@@ -4,8 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/FPS Parkour.unity
-    guid: 71396fa346bdbf242a468699fd5d4bfa
+  m_Scenes: []
   m_configObjects: {}

@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class RestartSceneOnFall : MonoBehaviour
 {
-    public float deathFallHeight = -15;
-
+    public float deathFall = -15f;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,10 +15,10 @@ public class RestartSceneOnFall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < deathFallHeight)
+        if (transform.position.y  < deathFall)
         {
-            Debug.Log("Respawn");
-            SceneManager.LoadScene("FPS Parkour");
+            Debug.Log("respawn");
+            SceneManager.LoadScene("Fps ParkourWood");
         }
     }
 }
