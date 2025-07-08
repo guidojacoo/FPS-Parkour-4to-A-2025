@@ -11,7 +11,7 @@ public class HealthManager : MonoBehaviour
     {
         if (playerHealth + points <= 0)
         {
-            SceneManager.LoadScene("Fps Parkour");
+            SceneManager.LoadScene("Fps ParkourWood");
         }
         else
         {

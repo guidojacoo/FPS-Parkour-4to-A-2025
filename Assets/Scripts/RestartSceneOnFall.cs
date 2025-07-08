@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class RestartSceneOnFall : MonoBehaviour
 {
-    public float deathFall = -15f;
+    public float deathFall = -5f;
     // Start is called before the first frame update
     void Start()
     {
